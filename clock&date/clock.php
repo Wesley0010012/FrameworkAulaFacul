@@ -10,7 +10,7 @@ function subtractClock(int $clock): int {
 }
 
 function subtractClocks(int $clockA, int $clockB): int {
-  return false;
+  return ($clockA < $clockB) ? $clockB - $clockA : $clockA - $clockB;
 }
 
 function convertStringToTime(string $clock): int {

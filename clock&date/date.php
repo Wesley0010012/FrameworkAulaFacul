@@ -12,7 +12,7 @@ function subtractDates(string $date1, string $date2): int|bool {
   $clock1 = convertStringToTime($date1);
   $clock2 = convertStringToTime($date2);
 
-  return subtractClocks();
+  return subtractClocks($clock1, $clock2);
 }
 
 function convertStringToArrayDate(string $date): array|bool {
