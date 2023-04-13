@@ -10,3 +10,7 @@ include('./clock%26date/clock.php');
 include('./clock%26date/date.php');
 
 include('./regexp/validators.php');
+
+include('./files/files.php');
+
+include('.config.php');

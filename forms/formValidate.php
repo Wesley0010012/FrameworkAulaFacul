@@ -1,7 +1,7 @@
 <?php
 
-function formValidate(array $formData): Bool {
-
+function formValidate(array $formData): bool {
+  return false;
 }
 
 function formSanitize(array $inputs): array {
