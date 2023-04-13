@@ -16,4 +16,3 @@ function subtractClocks(int $clockA, int $clockB): int {
 function convertStringToTime(string $clock): int {
   return strtotime($clock);
 }
-

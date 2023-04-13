@@ -14,3 +14,7 @@ function subtractDates(string $date1, string $date2): int|bool {
 
   return subtractClocks();
 }
+
+function convertStringToArrayDate(string $date): array|bool {
+  return date_parse($date);
+}
