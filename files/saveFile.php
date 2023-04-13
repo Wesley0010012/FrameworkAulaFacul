@@ -7,6 +7,5 @@
 // \d{3} -> ocorrência de 3 dígitos (0 a 9)
 
 function saveFile(string $email): bool {
-  // preg_match('/@+/', $email);
   return false;
 }
