@@ -1,9 +1,5 @@
 <?php
 
-function getServerClock(): int {
-  return time();
-}
-
 function getServerDate(): string {
   $clock = getServerClock();
 
