@@ -1,4 +1,4 @@
 <?php
 
-include('./src/saveFile.php');
-include('./src/fileData.php');
+include('src/saveFile.php');
+include('src/fileData.php');
