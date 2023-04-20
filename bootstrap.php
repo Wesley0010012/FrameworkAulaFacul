@@ -16,3 +16,6 @@ include('regexp/validators.php');
 
 //Files functions
 include('files/files.php');
+
+//Utils functions
+include('utils/dd.php');
